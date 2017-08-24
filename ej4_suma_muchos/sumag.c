@@ -4,7 +4,7 @@ extern int sumag(int, int, int, int, int, int, int, int);
 
 int main(){
 	
-	sumag(1, 1, 1, 1, 1, 1, 1, 1);
+	sumag(2, 1, 1, 1, 1, 1, 1, 1);
 
 	register int i asm ("rax");
 

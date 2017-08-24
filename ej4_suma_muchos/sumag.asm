@@ -9,16 +9,20 @@ sumag:
 	add rdi, r8; a4
 	sub rdi, r9; a5
 
-	;push 5
+	pop r11
 
 	pop rax
 
 	add rdi, rax; a6
 
-	;pop rax
+	pop rax
 
-	;sub rdi, rax; a7
+	sub rdi, rax; a7
 
 	mov rax, rdi
-	     
+
+	sub rsp, 8; por que?
+
+	push r11
+
 	ret
